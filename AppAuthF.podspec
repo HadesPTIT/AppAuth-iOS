@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
-  s.name         = "AppAuth"
-  s.version      = "1.6.2"
-  s.summary      = "AppAuth for iOS and macOS is a client SDK for communicating with OAuth 2.0 and OpenID Connect providers."
+  s.name         = "AppAuthF"
+  s.version      = "1.0.0"
+  s.summary      = "AppAuthF for iOS and macOS is a client SDK for communicating with OAuth 2.0 and OpenID Connect providers."
 
   s.description  = <<-DESC
 
@@ -38,7 +38,7 @@ It follows the OAuth 2.0 for Native Apps best current practice
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/openid/AppAuth-iOS.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/HadesPTIT/AppAuth-iOS.git", :tag => s.version }
   s.requires_arc = true
 
   # Subspec for the core AppAuth library classes only, suitable for extensions.
