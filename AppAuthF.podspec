@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AppAuthF"
-  s.version      = "1.0.0"
+  s.version      = "v1.0.0"
   s.summary      = "AppAuthF for iOS and macOS is a client SDK for communicating with OAuth 2.0 and OpenID Connect providers."
 
   s.description  = <<-DESC
